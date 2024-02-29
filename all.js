@@ -278,10 +278,10 @@ class Snake {
         this.stop = false;
         this.scope.textContent = '';
         this.scorePoint.textContent = 0;
-        this.addBait();
-
-        this.baitRandom();
         this.appear();
+        this.addBait();
+        this.baitRandom();
+
         this.mp3.load();
         this.mp3.play();
     }
